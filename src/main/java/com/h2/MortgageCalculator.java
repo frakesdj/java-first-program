@@ -22,7 +22,7 @@ public class MortgageCalculator {
 		float annualRate = Float.parseFloat(args[2]);
 		
 		MortgageCalculator calculator = new MortgageCalculator(loanAmount, termInYears, annualRate);
-	
+		calculator.calculateMonthlyPayment();
 		System.out.println(calculator.toString());
 	
 	}
