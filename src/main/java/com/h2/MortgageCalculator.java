@@ -34,7 +34,7 @@ public class MortgageCalculator {
 	
 	private float getMonthlyInterestRate()
 	{
-		return 0.0f;
+		return (annualRate / 100.0f) / 12.0f;
 	}
 	
 	public void calculateMonthlyPayment()
