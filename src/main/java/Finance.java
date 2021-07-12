@@ -24,7 +24,7 @@ public class Finance {
 			return;
 		}
 		
-		boolean isValidCommand = validateCommandArguements(args);
+		boolean isValidCommand = validateCommandArguments(args);
 		if (! isValidCommand)
 		{
 			commandsToUsage.get(args[0]);
@@ -34,7 +34,7 @@ public class Finance {
 		executeCommand(command, Arrays.copyOfRange(args, 1, args.length));
 		
 	}
-	private static boolean validateCommandArguements(String[] args) {	
+	private static boolean validateCommandArguments(String[] args) {	
 		switch (args[0])
 		{
 			case "bestLoanRates" :
