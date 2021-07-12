@@ -34,7 +34,7 @@ public class Finance {
 		executeCommand(command, Arrays.copyOfRange(args, 1, args.length));
 		
 	}
-	private static boolean validateCommandArguements(String args[]) {	
+	private static boolean validateCommandArguements(String[] args) {	
 		switch (args[0])
 		{
 			case "bestLoanRates" :
