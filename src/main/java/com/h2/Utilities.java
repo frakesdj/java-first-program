@@ -14,7 +14,7 @@ public class Utilities {
 		catch(NumberFormatException e)
 		{
 			throw new IllegalArgumentException(
-					in + "cannot be converted into a 'long' value."
+					in + " cannot be converted into a 'long' value."
 					+ " Exiting program.");
 		}
 		
@@ -32,7 +32,7 @@ public class Utilities {
 		catch(NumberFormatException e)
 		{
 			throw new IllegalArgumentException(
-					in + "cannot be converted into a 'int' value."
+					in + " cannot be converted into a 'int' value."
 					+ " Exiting program.");
 		}
 		
@@ -50,7 +50,7 @@ public class Utilities {
 		catch(NumberFormatException e)
 		{
 			throw new IllegalArgumentException(
-					in + "cannot be converted into a 'float' value."
+					in + " cannot be converted into a 'float' value."
 					+ " Exiting program.");
 		}
 		
